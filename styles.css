@@ -2155,3 +2155,37 @@ font-size: 2.2em;
   opacity: 0.7;
   border-style: dashed;
 }
+
+
+.project-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.btn:hover { opacity: 0.8; }
+
+.btn-github {
+    background: #24292e;
+    color: #fff;
+}
+
+.btn-demo {
+    background: #646cff;
+    color: #fff;
+}
+
+.btn-demo.disabled {
+    background: #aaa;
+    cursor: not-allowed;
+    border: none;
+}
